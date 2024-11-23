@@ -1,4 +1,4 @@
 # Top-level configuration
-name = "vpn-worker"
+name = "new-test-vnp"
 main = "_worker.js"
 compatibility_date = "2024-11-23"
