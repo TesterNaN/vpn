@@ -1,10 +1,11 @@
 // <!--GAMFC-->version base on commit 841ed4e9ff121dde0ed6a56ae800c2e6c4f66056, time is 2024-04-16 18:02:37 UTC<!--GAMFC-END-->.
 // @ts-ignore
-// time BUILD_TIME
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
+let time = 'BUILD_TIME'
+
 let userID = 'a06592ae-99a6-451e-ba58-5f49c18bc964';
 
 let proxyIP = 'cdn.xn--b6gac.eu.org'; // workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
